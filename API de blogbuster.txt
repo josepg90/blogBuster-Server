@@ -1,0 +1,16 @@
+API
+
+CRUD
+
+READ: Método: GET URL: http://localhost:8081/blogbuster2021/post?id=34 -> devuelve el post 34
+READ: Método: GET URL: http://localhost:8081/blogbuster2021/post?page=3&rpp=10 -> devuelve la página 3 a 10 registros x página
+CREATE: Método: POST URL: http://localhost:8081/blogbuster2021/post + parametros en json (sin id)
+UPDATE: Método: PUT URL: http://localhost:8081/blogbuster2021/post + parametros en json (con id)
+DELETE: Método: DELETE URL: http://localhost:8081/blogbuster2021/post?id=23 -> borra el post con id 23
+
+API de SESIÓN
+
+LOGIN: MÉTODO POST URL: http://localhost:8081/blogbuster2021/session + parametros en json (username+pass)
+LOGOUT: MÉTODO DELETE URL: http://localhost:8081/blogbuster2021/session
+CHECK: MÉTODO GET URL: http://localhost:8081/blogbuster2021/session
+
